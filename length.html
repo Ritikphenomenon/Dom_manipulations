@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To find length</title>
+</head>
+<body>
+    <input type="text" id="inp">
+    <button id="btn">submit</button>
+</body>
+<script>
+    document.getElementById("btn").onclick=function(){
+       var s= document.getElementById("inp").value;
+       alert(s.length);
+       //to use below one in the browsers
+       var vc=prompt('enter paragraph');//to take input in the browsers
+       alert(vc.length);
+    }
+    var st="hello indian";
+    //  alert(st.splice(0,4))//0 including 4 excluding
+       alert(st.toLocaleUpperCase());
+       var st1="YFYUGIOGIUG";
+       alert(st1.toLocaleLowerCase());
+</script>
+</html>
